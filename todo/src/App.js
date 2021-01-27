@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from './numbers';
 const a = 'App';
 const num = 7;
 const num1 = 6;
@@ -12,6 +13,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>
+           {count * length}
+        </p> 
         <h3> 
           {num + num1}
         </h3>
