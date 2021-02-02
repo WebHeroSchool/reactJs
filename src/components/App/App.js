@@ -20,7 +20,7 @@ const App = () => {
 return (<div>
     <h1>Важные дела:</h1> 
     <InputItem />
-    <ItemList todoItem = {toDoItem} />
+    <ItemList items = {items} />
     <Footer count={3} />
 </div>);
 }
