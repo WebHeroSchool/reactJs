@@ -7,13 +7,16 @@ const toDoItem = 'Написать новое приложение';
 const App = () => { 
      const items = [
          {
-             value: 'Написать новое приложение'
+             value: 'Написать новое приложение',
+             isDone: true
          },
          {
-             value: 'Прописать props-ы'
+             value: 'Прописать props-ы',
+             isDone: false
          },
          {
-             value: 'Отправить pullrequest'
+             value: 'Отправить pullrequest',
+             isDone: true
          }
      ];
 
